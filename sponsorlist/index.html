@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>赞助者列表</title>
+    <style>
+        body {
+            font-family: "阿里巴巴普惠体";
+            margin: 10px 10px 10px 10px;
+            padding: 0;
+            max-width: 500px;
+            background-color: #fff;
+        }
+        h1 {
+            text-align: left;
+            margin-top: 0;
+            margin-bottom: 0;
+            color: #fff;
+            padding: 30px;
+            background: url("bg.jpg") no-repeat center/cover;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+            border-radius: 16px 16px 0 0;
+        }
+        ul {
+            list-style: none;
+            margin-top: 0;
+            margin-bottom: 0;
+            padding: 0;
+            background-color: #F2F2F8;
+            border-radius: 0 0 16px 16px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            margin-left: 0;
+        }
+        li {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 8px 16px;
+            border-bottom: 1px solid #ddd;
+            font-size: 22px;
+            color: #000000;
+        }
+        li:last-child {
+            border-bottom: none;
+        }
+        .amount {
+            background-color: #71a6d4;
+            color: #fff;
+            padding: 5px 10px;
+            border-radius: 20px;
+        }
+        .disclaimer {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            margin-top: 10px;
+        }
+        .small {
+            color: #62d3f9;
+            font-size: 12px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            font-weight: 100;
+        }.small2 {
+            color: #33393b;
+            font-size: 12px;
+            margin-top: 3px;
+            margin-bottom: 3px;
+            font-weight: 100;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>赞助者列表<br><p class="small">‣ 总赞助额: ${all}</p></h1>
+    <ul>
+        <li><span class="username">用户1</span><span class="amount">¥1919810</span></li>
+        <li><span class="username">用户2</span><span class="amount">¥114514</span></li>
+        <li><span class="username">用户3</span><span class="amount">¥10086</span></li>
+        <!--添加用户-->
+    </ul>
+    <p class="disclaimer">感谢所有赞助者的支持!<br><p class="small2">Page designed by Aliorpse</p></p>
+</body>
+</html>
